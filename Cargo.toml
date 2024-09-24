@@ -1,0 +1,12 @@
+[package]
+name = "bit7"
+authors = ["sk337 <me@pk3.zip>"]
+version = "0.1.0"
+edition = "2021"
+
+[features]
+speedy = ["dep:speedy"]
+default = ["speedy"]
+
+[dependencies]
+speedy = { version = "0.8.7", optional = true }
