@@ -1,8 +1,11 @@
 [package]
-name = "bit7"
+name = "u7"
 authors = ["sk337 <me@pk3.zip>"]
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/sk337/u7"
+license = "GPL-3.0"
+description = "an implementation of dotnet's 7bit int in Rust"
 
 [features]
 speedy = ["dep:speedy"]
